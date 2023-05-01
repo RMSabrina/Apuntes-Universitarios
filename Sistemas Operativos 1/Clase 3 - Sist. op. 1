@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T21:16:16.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="jmG5qrk5sdCJCvEZKURF" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T21:26:26.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="Y0KnePxel4E6gWxL4LyV" version="21.2.3" type="github">
   <diagram name="Página-1" id="xyFO6JTD964-T5cMOWpD">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,22 +78,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Archivos&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Son el mecanismo que nos brinda el S.O para que podamos guardar información en el disco duro&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="680" width="380" height="60" as="geometry" />
+          <mxGeometry x="501.5" y="680" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MA-ZDjyTyfqhUQbCtaGf-29" target="MA-ZDjyTyfqhUQbCtaGf-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Son las unidades lógicas de información&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Creadas por &lt;i&gt;procesos &lt;/i&gt;o por los &lt;i&gt;usuarios&lt;/i&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="770" width="140" height="60" as="geometry" />
+          <mxGeometry x="550" y="770" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-37" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;La información que almacena debe ser&lt;/font&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt; &lt;/b&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;persistente&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="170" height="60" as="geometry" />
+          <mxGeometry x="120" y="680" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-39" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="320" as="sourcePoint" />
+            <mxPoint x="810" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-40" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="19" y="640" as="sourcePoint" />
+            <mxPoint x="809" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Nombres de Archivos&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="840" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-42" value="Depende de cada sistema operativo:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Cantidad y tipo de caracteres&lt;/li&gt;&lt;li&gt;Extensiones (en Windows todos los archivos tienen que tener su extensión, en Linux no)&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="650" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-44" value="Linux es &quot;Case Sensitive&quot; mientras que Windows no" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="667" y="840" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
