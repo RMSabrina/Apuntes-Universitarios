@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T21:01:56.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="ajuNyz61NrWiK-iSbpv2" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T21:09:19.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="pIZhKgljEgGWUWID52rD" version="21.2.3" type="github">
   <diagram name="Página-1" id="xyFO6JTD964-T5cMOWpD">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,26 +37,36 @@
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-14" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;Garantizar en la medida de lo posible que el dato en el archivo sea válido&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="312.5" y="210" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MA-ZDjyTyfqhUQbCtaGf-17" target="MA-ZDjyTyfqhUQbCtaGf-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MA-ZDjyTyfqhUQbCtaGf-17" target="MA-ZDjyTyfqhUQbCtaGf-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405.25" y="451.5" as="sourcePoint" />
+            <mxPoint x="650" y="497" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="472" />
+              <mxPoint x="650" y="472" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="MA-ZDjyTyfqhUQbCtaGf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MA-ZDjyTyfqhUQbCtaGf-17" target="MA-ZDjyTyfqhUQbCtaGf-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Requerimientos esenciales para el almacenamiento de información a largo plazo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="327.5" y="360" width="155" height="90" as="geometry" />
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.447;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MA-ZDjyTyfqhUQbCtaGf-17" target="MA-ZDjyTyfqhUQbCtaGf-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-18" value="Múltiples procesos deben ser capaces de acceder a la información al mismo tiempo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="321" y="495" width="167.5" height="90" as="geometry" />
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Requerimientos esenciales para el almacenamiento de información a largo plazo&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="309" y="359.5" width="192.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-19" value="La información debe sobrevivir a la terminación del proceso que la utilice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="375" width="120" height="60" as="geometry" />
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Múltiples procesos deben ser capaces de acceder a la información al mismo tiempo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="495" width="195" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-20" value="Posibilidad de almacenar una gran cantidad de información" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="375" width="120" height="60" as="geometry" />
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;La información debe sobrevivir a la terminación del proceso que la utilice&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="495" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Posibilidad de almacenar una gran cantidad de información&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="496.25" width="180" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-ZDjyTyfqhUQbCtaGf-25" value="¿Cómo maneja los archivos el sistema operativo?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="10" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
