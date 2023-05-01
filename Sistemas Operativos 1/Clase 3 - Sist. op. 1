@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T23:19:39.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="XkG7gAxWZPLjA1jcr6r0" version="21.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-01T23:21:49.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="9KzFrvx4krfUl-EniQWd" version="21.2.3" type="github" pages="3">
   <diagram name="Página-1" id="xyFO6JTD964-T5cMOWpD">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,8 +249,8 @@
         <mxCell id="Pdpl19SxYoeVbiwYzAAr-15" value="El problema mejora con" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="462" y="300" width="96" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pdpl19SxYoeVbiwYzAAr-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Implementar el sistema con una tabla en la memoria&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="525" width="270" height="60" as="geometry" />
+        <mxCell id="Pdpl19SxYoeVbiwYzAAr-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Implementar el sistema con una tabla en la memoria RAM (que de por sí es más rápida que el disco duro).&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="524.5" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Pdpl19SxYoeVbiwYzAAr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pdpl19SxYoeVbiwYzAAr-13" target="Pdpl19SxYoeVbiwYzAAr-22">
           <mxGeometry relative="1" as="geometry">
@@ -258,8 +258,14 @@
             <mxPoint x="215" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pdpl19SxYoeVbiwYzAAr-22" value="Mejora al&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Pdpl19SxYoeVbiwYzAAr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pdpl19SxYoeVbiwYzAAr-22" target="Pdpl19SxYoeVbiwYzAAr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pdpl19SxYoeVbiwYzAAr-22" value="Mejora con FAT&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pdpl19SxYoeVbiwYzAAr-24" value="FAT: Tabla de asignación de archivos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="470" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
