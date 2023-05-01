@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T21:40:38.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="MQ8CCZkcm8TGzJeGJV82" version="21.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-01T21:51:45.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="DRwX_oEUN3gByNn6VLtt" version="21.2.3" type="github" pages="2">
   <diagram name="Página-1" id="xyFO6JTD964-T5cMOWpD">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,11 +124,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uyoT8PjYvSatr_h8R0OB-1" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Estructura de archivos&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="10" width="240" height="40" as="geometry" />
+        <mxCell id="uyoT8PjYvSatr_h8R0OB-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="50" width="610" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="uyoT8PjYvSatr_h8R0OB-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="60" width="60" height="30" as="geometry" />
+        <mxCell id="uyoT8PjYvSatr_h8R0OB-1" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Estructuras de archivos&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uyoT8PjYvSatr_h8R0OB-3">
+          <mxGeometry width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uyoT8PjYvSatr_h8R0OB-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. Secuencia de bytes (como los sistemas actuales)&lt;br&gt;2. Bloques de registro (c/ bloque de tamaño fijo). (Útil para tarjetas perforadas)&amp;nbsp;&lt;br&gt;3. Árbol de registros. Se accede a cada parte del archivo por llaves (o claves).&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uyoT8PjYvSatr_h8R0OB-3">
+          <mxGeometry y="50" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyoT8PjYvSatr_h8R0OB-4" value="&lt;h1&gt;Tipos de archivos&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Linux: Archivos de caracteres o regulables.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="510" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
