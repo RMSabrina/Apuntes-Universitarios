@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T21:25:37.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="073cu2RjuN2kfGhnLA4d" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-02T21:38:11.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="5EqcNRQT9CJ7AW8iUNcC" version="21.2.3" type="github" pages="4">
   <diagram name="Página-1" id="xyFO6JTD964-T5cMOWpD">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,8 +410,11 @@
         <mxCell id="eQkSDkpdLP-amqX3y1-R-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Características:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="870" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eQkSDkpdLP-amqX3y1-R-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Text&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="910" width="60" height="30" as="geometry" />
+        <mxCell id="eQkSDkpdLP-amqX3y1-R-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;a) Por cada carpeta/directorio hay una estructura de datos como la que se muestra en el gráfico. Almacena para cada archivo la longitud de archivo, sus atributos y finalmente su nombre. Siempre completa el nombre con espacios vacíos. &lt;i&gt;&lt;u&gt;Problema&lt;/u&gt;&lt;/i&gt;: Se desperdicia espacio con nombres cortos y no se podría modificar el nombre (por el tamaño fijo del mismo).&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eQkSDkpdLP-amqX3y1-R-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;b)&amp;nbsp; Mejor eficiencia utilizando heap. Tenemos los atributos de cada archivo y un apuntador a su nombre correspondiente. &lt;u style=&quot;font-style: italic;&quot;&gt;Ventaja: &lt;/u&gt;No se desperdicia el espacio.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="970" width="780" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
