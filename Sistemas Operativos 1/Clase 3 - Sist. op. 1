@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T21:11:55.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="p4aNyKC2-oXJyfFhgNO9" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-02T21:13:14.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="lZ31sGtyqGdSnF9Rm2Aa" version="21.2.3" type="github" pages="4">
   <diagram name="Página-1" id="xyFO6JTD964-T5cMOWpD">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,8 +368,17 @@
         <mxCell id="LOsZTLPw2MXHpUulPb_X-6" value="Un i-nodo &lt;span style=&quot;background-color: rgb(255, 181, 112);&quot;&gt;contiene información&lt;/span&gt; sobre el archivo o directorio, como su tamaño, fecha de creación y modificación, permisos de acceso y ubicación en el disco. También contiene &lt;u style=&quot;&quot;&gt;punteros a los bloques de datos que componen el archivo o directorio&lt;/u&gt;." style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="317.5" y="180" width="375" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="LOsZTLPw2MXHpUulPb_X-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Es importante destacar que los i-nodos son una parte fundamental de la estructura del sistema de archivos en los sistemas operativos tipo Unix, como Linux o macOS. En otros sistemas operativos, como Windows, existen estructuras de datos similares que cumplen una función equivalente.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1070" width="630" height="80" as="geometry" />
+        <mxCell id="LOsZTLPw2MXHpUulPb_X-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Es importante destacar que los i-nodos son una parte fundamental de la estructura del sistema de archivos en los sistemas operativos tipo Unix, como Linux o macOS. En otros sistemas operativos, como Windows, existen estructuras de datos similares que cumplen una función equivalente.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1090" width="670" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VhWfFGYXfctteJ-C9OuO-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;u&gt;Nota extra:&lt;/u&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1090" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrcFNjW1ZEgq0XwuTyam-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="1080" as="sourcePoint" />
+            <mxPoint x="816" y="1080" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
