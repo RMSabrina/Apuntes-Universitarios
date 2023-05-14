@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T00:39:40.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="4mmMKt9z9NDjbY4B03xC" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-14T00:53:51.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="tlPnK-IcT8c-bTZIJRl9" version="21.2.9" type="github" pages="2">
   <diagram name="Página-1" id="bnr48KtmNe2BLuCu2KkL">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,6 +276,12 @@
             <mxPoint x="840" y="840" as="sourcePoint" />
             <mxPoint x="1630" y="840" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEvVsPho3DZVX9i4UFz-38" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;u style=&quot;font-style: normal; font-size: 16px;&quot;&gt;Objetivos de software E/S&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="880" y="880" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEvVsPho3DZVX9i4UFz-39" value="Independencia de dispositivos: Que se pueda utilizar cada dispositivo de la misma forma&lt;br&gt;Denominación uniforme: El nombre debe ser una cadena o entero sin depender del dispositivo&lt;br&gt;Manejo de errores: Generalmente se intenta que el dispositivo solucione el error mediante el controlador (hardware).&amp;nbsp;&lt;br&gt;Transferencia sincrónica y asincrónica: Sincrónica (la CPU constantemente consulta por el&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="940" width="540" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
