@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T01:10:49.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="IcFNYuNFvLgLgdUqEOnA" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-22T14:18:59.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="W90lZtJOHt29kihUJhPB" version="21.3.2" type="github" pages="4">
   <diagram name="Página-1" id="bnr48KtmNe2BLuCu2KkL">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -337,35 +337,35 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s7O6_taWmiSOC3fb2OWr" name="Página-3">
-    <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1393" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="02uvV8lzS8jnUWag9_si-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="02uvV8lzS8jnUWag9_si-1" target="02uvV8lzS8jnUWag9_si-3">
+        <mxCell id="02uvV8lzS8jnUWag9_si-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="02uvV8lzS8jnUWag9_si-1" target="02uvV8lzS8jnUWag9_si-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-1" value="Entrada/Salida programada" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="02uvV8lzS8jnUWag9_si-1" value="Entrada/Salida programada" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="80" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="02uvV8lzS8jnUWag9_si-2" target="02uvV8lzS8jnUWag9_si-5">
+        <mxCell id="02uvV8lzS8jnUWag9_si-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="02uvV8lzS8jnUWag9_si-2" target="02uvV8lzS8jnUWag9_si-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-2" value="Entrada/Salida controlada por interrupciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="02uvV8lzS8jnUWag9_si-2" value="Entrada/Salida controlada por interrupciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-3" value="Se desperdicia la CPU, ya que está constantemente chequeando que el estado del dispositivo E/S para enviar la información." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="02uvV8lzS8jnUWag9_si-3" value="Se desperdicia la CPU, ya que está constantemente chequeando que el estado del dispositivo E/S para enviar la información." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="60" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-5" value="Por ej: La CPU envía los caracteres a la impresora y cuando la impresora imprime cada caracter envía una interrupción a la CPU. Desventaja: La CPU puede recibir una gran cantidad de interrupciones innecesarias" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="02uvV8lzS8jnUWag9_si-5" value="Por ej: La CPU envía los caracteres a la impresora y cuando la impresora imprime cada caracter envía una interrupción a la CPU. Desventaja: La CPU puede recibir una gran cantidad de interrupciones innecesarias" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="150" width="440" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="02uvV8lzS8jnUWag9_si-7" target="02uvV8lzS8jnUWag9_si-8">
+        <mxCell id="02uvV8lzS8jnUWag9_si-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="02uvV8lzS8jnUWag9_si-7" target="02uvV8lzS8jnUWag9_si-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-7" value="Entrada/Salida mediante DMA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="02uvV8lzS8jnUWag9_si-7" value="Entrada/Salida mediante DMA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02uvV8lzS8jnUWag9_si-8" value="La CPU envía los caracteres al controlador DMA. El controlador se encarga de realizar entrada/salida por interrupciones y al final, envía la interrupción a la CPU.&lt;br&gt;Ventaja: La CPU recibe menos interrupciones" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="02uvV8lzS8jnUWag9_si-8" value="La CPU envía los caracteres al controlador DMA. El controlador se encarga de realizar entrada/salida por interrupciones y al final, envía la interrupción a la CPU.&lt;br&gt;Ventaja: La CPU recibe menos interrupciones" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="290" width="460" height="80" as="geometry" />
         </mxCell>
       </root>
