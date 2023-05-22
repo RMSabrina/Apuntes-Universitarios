@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T18:01:20.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="VH0taO0GvTo9ai5IUpug" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-22T18:06:58.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="YNAvOsploOEHD5XJBwyR" version="21.3.2" type="github" pages="2">
   <diagram name="Página-1" id="Nm0uC9RnBJCZ1rB6JZC-">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="210" y="115" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m4izKbtvh7duc2V27hQV-1" value="Cuando el programa hace referencia a una parte de su espacio de direcciones que &lt;span class=&quot;fontstyle2&quot;&gt;no &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;está en la memoria física, el sistema operativo&lt;br&gt;recibe una alerta para buscar la parte faltante y volver a ejecutar la instrucción que falló&lt;/span&gt; &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="257.5" width="310" height="100" as="geometry" />
+          <mxGeometry x="490" y="257.5" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="m4izKbtvh7duc2V27hQV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m4izKbtvh7duc2V27hQV-2" target="m4izKbtvh7duc2V27hQV-4">
           <mxGeometry relative="1" as="geometry" />
@@ -91,14 +91,68 @@
             <mxPoint x="230" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-12" value="HDD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-12" value="HDD" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="595" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-13" value="Espacio virtual o lógico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=4" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-13" value="Espacio virtual o lógico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" vertex="1" parent="1">
           <mxGeometry x="90" y="520" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-15" value="Espacio físico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=4" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-15" value="Espacio físico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" vertex="1" parent="1">
           <mxGeometry x="510" y="520" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530.25" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530.25" y="620" as="sourcePoint" />
+            <mxPoint x="650.25" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529.75" y="640" as="sourcePoint" />
+            <mxPoint x="649.75" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530.25" y="659.5" as="sourcePoint" />
+            <mxPoint x="650.25" y="659.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530.25" y="680" as="sourcePoint" />
+            <mxPoint x="650.25" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530.25" y="700" as="sourcePoint" />
+            <mxPoint x="650.25" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-23" value="RAM" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="560" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-24" value="Marcos" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="595" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-25" value="Páginas" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-26" value="X KB = X * 2^10B&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;X MB = X * 2^20B &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt; X GB = X * 2^30B&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1085" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-27" value="NOTA:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1085" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-28" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1065" as="sourcePoint" />
+            <mxPoint x="800" y="1065" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
