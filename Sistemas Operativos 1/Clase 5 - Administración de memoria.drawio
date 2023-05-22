@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T20:32:51.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="awTOx5wEJBhxIFRBwDsl" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-22T20:47:11.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="Mp9mY0TyP5iPj4pHATXI" version="21.3.2" type="github" pages="2">
   <diagram name="Página-1" id="Nm0uC9RnBJCZ1rB6JZC-">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="210" y="115" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m4izKbtvh7duc2V27hQV-1" value="Cuando el programa hace referencia a una parte de su espacio de direcciones que &lt;span class=&quot;fontstyle2&quot;&gt;no &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;está en la memoria física, el sistema operativo&lt;br&gt;recibe una alerta para buscar la parte faltante y volver a ejecutar la instrucción que falló&lt;/span&gt; &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="257.5" width="310" height="100" as="geometry" />
+          <mxGeometry x="485" y="247.5" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="m4izKbtvh7duc2V27hQV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m4izKbtvh7duc2V27hQV-2" target="m4izKbtvh7duc2V27hQV-4">
           <mxGeometry relative="1" as="geometry" />
@@ -32,106 +32,106 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m4izKbtvh7duc2V27hQV-4" value="Se asocian a la memoria física, pero no todas tienen que estar en la memoria física para poder ejecutar el&lt;br&gt;programa " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="227.5" y="270" width="215" height="75" as="geometry" />
+          <mxGeometry x="227.5" y="260" width="215" height="75" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="200" y="560" width="60" height="80" as="geometry" />
+          <mxGeometry x="200" y="540" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="680" as="sourcePoint" />
-            <mxPoint x="200" y="625" as="targetPoint" />
+            <mxPoint x="170" y="660" as="sourcePoint" />
+            <mxPoint x="200" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="680" as="sourcePoint" />
-            <mxPoint x="260" y="625" as="targetPoint" />
+            <mxPoint x="290" y="660" as="sourcePoint" />
+            <mxPoint x="260" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="170" y="680" width="120" height="120" as="geometry" />
+          <mxGeometry x="170" y="660" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="700" as="sourcePoint" />
-            <mxPoint x="290" y="700" as="targetPoint" />
+            <mxPoint x="170" y="680" as="sourcePoint" />
+            <mxPoint x="290" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="169.5" y="720" as="sourcePoint" />
-            <mxPoint x="289.5" y="720" as="targetPoint" />
+            <mxPoint x="169.5" y="700" as="sourcePoint" />
+            <mxPoint x="289.5" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="739.5" as="sourcePoint" />
-            <mxPoint x="290" y="739.5" as="targetPoint" />
+            <mxPoint x="170" y="719.5" as="sourcePoint" />
+            <mxPoint x="290" y="719.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="740" as="sourcePoint" />
+            <mxPoint x="290" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="760" as="sourcePoint" />
             <mxPoint x="290" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="780" as="sourcePoint" />
-            <mxPoint x="290" y="780" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-12" value="HDD" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="595" width="60" height="30" as="geometry" />
+          <mxGeometry x="200" y="575" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-13" value="Espacio virtual o lógico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" vertex="1" parent="1">
-          <mxGeometry x="150" y="520" width="160" height="30" as="geometry" />
+          <mxGeometry x="150" y="500" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-15" value="Espacio físico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" vertex="1" parent="1">
-          <mxGeometry x="485" y="520" width="160" height="30" as="geometry" />
+          <mxGeometry x="485" y="500" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="505.25" y="600" width="120" height="120" as="geometry" />
+          <mxGeometry x="505.25" y="580" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505.25" y="620" as="sourcePoint" />
-            <mxPoint x="625.25" y="620" as="targetPoint" />
+            <mxPoint x="505.25" y="600" as="sourcePoint" />
+            <mxPoint x="625.25" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="504.75" y="640" as="sourcePoint" />
-            <mxPoint x="624.75" y="640" as="targetPoint" />
+            <mxPoint x="504.75" y="620" as="sourcePoint" />
+            <mxPoint x="624.75" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505.25" y="659.5" as="sourcePoint" />
-            <mxPoint x="625.25" y="659.5" as="targetPoint" />
+            <mxPoint x="505.25" y="639.5" as="sourcePoint" />
+            <mxPoint x="625.25" y="639.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505.25" y="660" as="sourcePoint" />
+            <mxPoint x="625.25" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJCHCwhLiSYqByzaOlav-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="505.25" y="680" as="sourcePoint" />
             <mxPoint x="625.25" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505.25" y="700" as="sourcePoint" />
-            <mxPoint x="625.25" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-23" value="RAM" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="535" y="555" width="60" height="30" as="geometry" />
+          <mxGeometry x="535" y="535" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-24" value="Marcos" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="595" width="60" height="30" as="geometry" />
+          <mxGeometry x="425" y="575" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-25" value="Páginas" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="680" width="60" height="30" as="geometry" />
+          <mxGeometry x="310" y="660" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-26" value="X KB = X * 2^10B&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;X MB = X * 2^20B &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt; X GB = X * 2^30B&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="180" y="1085" width="580" height="40" as="geometry" />
@@ -152,28 +152,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-31" value="Paginación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=13;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="410" width="120" height="40" as="geometry" />
+          <mxGeometry x="69" y="380" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-32" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;El espacio de direcciones virtuales se divide en unidades de tamaño fijo llamadas páginas. Las unidades correspondientes en la memoria física se llaman marcos de página.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="230" y="390" width="500" height="60" as="geometry" />
+          <mxGeometry x="259" y="370" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-33" value="Las transferencias entre la RAM y el disco siempre son en páginas completas. &lt;br style=&quot;font-size: 14px;&quot;&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="370" height="40" as="geometry" />
+          <mxGeometry x="269" y="440" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-34" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="34" y="370" as="sourcePoint" />
-            <mxPoint x="794" y="370" as="targetPoint" />
+            <mxPoint x="34" y="360" as="sourcePoint" />
+            <mxPoint x="794" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-35" target="sJCHCwhLiSYqByzaOlav-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-35" value="Tabla de página" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="850" width="120" height="50" as="geometry" />
+          <mxGeometry x="50" y="820" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-36" value="Muestra las asociaciones actuales entre direcciones físicas y virtuales." style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;rotation=0;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="850" width="310" height="50" as="geometry" />
+        <mxCell id="sJCHCwhLiSYqByzaOlav-36" value="Muestra las asociaciones actuales entre direcciones físicas y virtuales. Dentro de la MMU." style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;rotation=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="820" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-39" target="sJCHCwhLiSYqByzaOlav-40">
           <mxGeometry relative="1" as="geometry" />
@@ -191,19 +191,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-42" value="MMU" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="850" width="70" height="50" as="geometry" />
+          <mxGeometry x="550" y="820" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-43" target="sJCHCwhLiSYqByzaOlav-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-43" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Unidad de administración de memoria&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="645" y="850" width="135" height="50" as="geometry" />
+          <mxGeometry x="645" y="820" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sJCHCwhLiSYqByzaOlav-45" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se encarga de la traducción y administración de las direcciones.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="645" y="930" width="135" height="110" as="geometry" />
+          <mxGeometry x="645" y="900" width="135" height="110" as="geometry" />
         </mxCell>
         <mxCell id="lmQE500mj6NbG7QO0ZwG-1" value="El sistema operativo selecciona un marco de página que se utilice poco y escribe su contenido de vuelta al disco (si no es que ya está ahí). Después obtiene la página que se acaba de referenciar en el marco de página que se acaba de liberar, cambia la asociación y reinicia la instrucción que originó el trap. " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0;rotation=0;horizontal=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="35.25" y="990" width="594.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmQE500mj6NbG7QO0ZwG-4" value="Asociar páginas virtuales a los marcos de página. " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0;rotation=0;horizontal=1;strokeColor=default;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="215" y="870" width="280" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
