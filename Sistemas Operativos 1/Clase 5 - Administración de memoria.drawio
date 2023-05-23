@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T21:31:51.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="P64teDxXeR7xUq411T8P" version="21.3.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-05-23T21:34:12.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="wOihdaqtp37Gvn8M5NAP" version="21.3.2" type="github" pages="5">
   <diagram id="xX3T-Diw_sW6EzM1j-1P" name="Página-0">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,28 +29,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-1" value="A través de los años se han desarrollado dos esquemas generales para lidiar con la sobrecarga de memoria &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="560" width="270" height="60" as="geometry" />
+          <mxGeometry x="40" y="655" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31qnCGlo_nlkCCPrF5Vb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-2" target="31qnCGlo_nlkCCPrF5Vb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31qnCGlo_nlkCCPrF5Vb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-2" target="31qnCGlo_nlkCCPrF5Vb-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-2" value="Sobrecarga de memoria" style="text;html=1;strokeColor=#b46504;fillColor=#fad7ac;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="500" width="226" height="30" as="geometry" />
+          <mxGeometry x="62" y="500" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-3" target="31qnCGlo_nlkCCPrF5Vb-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-3" value="Intercambio" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
-          <mxGeometry x="420" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="400" y="627.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-5" target="31qnCGlo_nlkCCPrF5Vb-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-5" value="Memoria virtual" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="620" width="120" height="25" as="geometry" />
+          <mxGeometry x="400" y="714.5" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-7" value="Llevar cada proceso completo a memoria, ejecutarlo durante cierto tiempo y después regresarlo al disco." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="505" width="190" height="80" as="geometry" />
+          <mxGeometry x="580" y="602.5" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-9" value="Permite que los programas se ejecuten incluso cuando sólo se encuentran en forma&lt;br&gt;parcial en la memoria. " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="595" width="190" height="75" as="geometry" />
+          <mxGeometry x="580" y="689.5" width="190" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="31qnCGlo_nlkCCPrF5Vb-11" value="Para mantener todos los procesos en memoria todo el tiempo se requiere una gran cantidad de memoria y no puede hacerse si no hay memoria suficiente." style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="319" y="478.75" width="461" height="72.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
