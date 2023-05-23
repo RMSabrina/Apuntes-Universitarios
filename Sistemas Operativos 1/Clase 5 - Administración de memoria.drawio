@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T21:34:12.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="wOihdaqtp37Gvn8M5NAP" version="21.3.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-05-23T21:39:35.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="gHn95o_0UYEH38Kjfheq" version="21.3.2" type="github" pages="5">
   <diagram id="xX3T-Diw_sW6EzM1j-1P" name="Página-0">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-1" value="A través de los años se han desarrollado dos esquemas generales para lidiar con la sobrecarga de memoria &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="655" width="270" height="60" as="geometry" />
+          <mxGeometry x="40" y="636.25" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-2" target="31qnCGlo_nlkCCPrF5Vb-11">
           <mxGeometry relative="1" as="geometry" />
@@ -38,29 +38,97 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-2" value="Sobrecarga de memoria" style="text;html=1;strokeColor=#b46504;fillColor=#fad7ac;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="62" y="500" width="226" height="30" as="geometry" />
+          <mxGeometry x="62" y="481.25" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-3" target="31qnCGlo_nlkCCPrF5Vb-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-3" value="Intercambio" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
-          <mxGeometry x="400" y="627.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="400" y="608.75" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="31qnCGlo_nlkCCPrF5Vb-5" target="31qnCGlo_nlkCCPrF5Vb-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-5" value="Memoria virtual" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="714.5" width="120" height="25" as="geometry" />
+          <mxGeometry x="400" y="695.75" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-7" value="Llevar cada proceso completo a memoria, ejecutarlo durante cierto tiempo y después regresarlo al disco." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="602.5" width="190" height="80" as="geometry" />
+          <mxGeometry x="580" y="583.75" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-9" value="Permite que los programas se ejecuten incluso cuando sólo se encuentran en forma&lt;br&gt;parcial en la memoria. " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="689.5" width="190" height="75" as="geometry" />
+          <mxGeometry x="580" y="670.75" width="190" height="75" as="geometry" />
         </mxCell>
         <mxCell id="31qnCGlo_nlkCCPrF5Vb-11" value="Para mantener todos los procesos en memoria todo el tiempo se requiere una gran cantidad de memoria y no puede hacerse si no hay memoria suficiente." style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;fontStyle=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="319" y="478.75" width="461" height="72.5" as="geometry" />
+          <mxGeometry x="319" y="460" width="461" height="72.5" as="geometry" />
         </mxCell>
+        <mxCell id="-ay9HGBZUDv_Lm3gR4mT-1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="34" y="440" as="sourcePoint" />
+            <mxPoint x="794" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-1" value="Algoritmos de intercambio:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="790" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CMZXj3Ar6YDAcxp9zdhW-3" target="CMZXj3Ar6YDAcxp9zdhW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-3" value="Primer ajuste" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-4" value="Recorro desde el inicio y almaceno el requerimiento en el primer hueco que sea capaz de almacenarlo." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="860" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CMZXj3Ar6YDAcxp9zdhW-6" target="CMZXj3Ar6YDAcxp9zdhW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-6" value="Mejor ajuste:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-7" value="Recorro desde el inicio y almaceno el requerimiento en el hueco que mejor se ajuste (aquel que menor fragmentación deja)." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1080" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CMZXj3Ar6YDAcxp9zdhW-9" target="CMZXj3Ar6YDAcxp9zdhW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-9" value="Peor ajuste:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1010" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-10" value="Recorro todo (de principio a fin) y almaceno el requerimiento en el hueco que mayor &quot;desperdicio&quot; genera.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1010" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CMZXj3Ar6YDAcxp9zdhW-12" target="CMZXj3Ar6YDAcxp9zdhW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-12" value="Siguiente ajuste:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="935" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-13" value="No recorro desde el inicio c/ vez. Continúa recorriendo desde donde se quedó. El resto = a primer ajuste." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="920" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CMZXj3Ar6YDAcxp9zdhW-14" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="34" y="770" as="sourcePoint" />
+            <mxPoint x="794" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYf_JgjsyiR76P0RqZa0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CYf_JgjsyiR76P0RqZa0-1" target="CYf_JgjsyiR76P0RqZa0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYf_JgjsyiR76P0RqZa0-1" value="Compactación de memoria " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="795" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CYf_JgjsyiR76P0RqZa0-2" value="Cuando el intercambio crea varios huecos en la memoria, es posible combinarlos todos en uno grande desplazando los procesos lo más hacia abajo que sea posible." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="780" width="260" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pAnZYnVo_QOP7w1gya8p" name="Página-4">
+    <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
@@ -78,202 +146,202 @@
         <mxCell id="eljkDkrcAiI4HZhlrct5-2" value="Memoria virtual" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eljkDkrcAiI4HZhlrct5-3" target="m4izKbtvh7duc2V27hQV-2">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="eljkDkrcAiI4HZhlrct5-3" target="m4izKbtvh7duc2V27hQV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eljkDkrcAiI4HZhlrct5-3" value="Cada programa tiene su propio espacio de direcciones, el cual se divide en trozos llamados &lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0); font-size: 13px;&quot;&gt;páginas&lt;/span&gt;.&lt;/b&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="210" y="115" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="m4izKbtvh7duc2V27hQV-1" value="Cuando el programa hace referencia a una parte de su espacio de direcciones que &lt;span class=&quot;fontstyle2&quot; style=&quot;font-size: 13px;&quot;&gt;no &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 13px;&quot;&gt;está en la memoria física, el sistema operativo recibe una alerta para buscar la parte faltante y volver a ejecutar la instrucción que falló&lt;/span&gt; " style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="m4izKbtvh7duc2V27hQV-1" value="Cuando el programa hace referencia a una parte de su espacio de direcciones que &lt;span class=&quot;fontstyle2&quot; style=&quot;font-size: 13px;&quot;&gt;no &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 13px;&quot;&gt;está en la memoria física, el sistema operativo recibe una alerta para buscar la parte faltante y volver a ejecutar la instrucción que falló&lt;/span&gt; " style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="150" y="187.5" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m4izKbtvh7duc2V27hQV-2" target="m4izKbtvh7duc2V27hQV-4">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m4izKbtvh7duc2V27hQV-2" target="m4izKbtvh7duc2V27hQV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m4izKbtvh7duc2V27hQV-2" value="Cada página es un rango contiguo de direcciones &lt;br style=&quot;font-size: 13px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="m4izKbtvh7duc2V27hQV-2" value="Cada página es un rango contiguo de direcciones &lt;br style=&quot;font-size: 13px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="540" y="115" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m4izKbtvh7duc2V27hQV-4" target="m4izKbtvh7duc2V27hQV-1">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m4izKbtvh7duc2V27hQV-4" target="m4izKbtvh7duc2V27hQV-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m4izKbtvh7duc2V27hQV-4" value="Se asocian a la memoria física, pero no todas tienen que estar en la memoria física para poder ejecutar el programa " style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="m4izKbtvh7duc2V27hQV-4" value="Se asocian a la memoria física, pero no todas tienen que estar en la memoria física para poder ejecutar el programa " style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="520" y="200" width="215" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="200" y="520" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="640" as="sourcePoint" />
             <mxPoint x="200" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="640" as="sourcePoint" />
             <mxPoint x="260" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="170" y="640" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="660" as="sourcePoint" />
             <mxPoint x="290" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="169.5" y="680" as="sourcePoint" />
             <mxPoint x="289.5" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="699.5" as="sourcePoint" />
             <mxPoint x="290" y="699.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="720" as="sourcePoint" />
             <mxPoint x="290" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-11" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="740" as="sourcePoint" />
             <mxPoint x="290" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-12" value="HDD" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-12" value="HDD" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="555" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-13" value="Espacio virtual o lógico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-13" value="Espacio virtual o lógico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="150" y="480" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-15" value="Espacio físico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-15" value="Espacio físico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="530" y="480" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="550.25" y="560" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550.25" y="580" as="sourcePoint" />
             <mxPoint x="670.25" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="549.75" y="600" as="sourcePoint" />
             <mxPoint x="669.75" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-19" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550.25" y="619.5" as="sourcePoint" />
             <mxPoint x="670.25" y="619.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-20" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550.25" y="640" as="sourcePoint" />
             <mxPoint x="670.25" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-21" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550.25" y="660" as="sourcePoint" />
             <mxPoint x="670.25" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-23" value="RAM" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-23" value="RAM" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="580" y="515" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-24" value="Marcos" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-24" value="Marcos" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="555" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-25" value="Páginas" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-25" value="Páginas" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="640" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-26" value="X KB = X * 2^10B&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;X MB = X * 2^20B &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt; X GB = X * 2^30B&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-26" value="X KB = X * 2^10B&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;X MB = X * 2^20B &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt; X GB = X * 2^30B&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="180" y="1085" width="580" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-27" value="NOTA:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-27" value="NOTA:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="1085" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-28" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-28" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="1065" as="sourcePoint" />
             <mxPoint x="800" y="1065" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-31" target="sJCHCwhLiSYqByzaOlav-33">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sJCHCwhLiSYqByzaOlav-31" target="sJCHCwhLiSYqByzaOlav-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-31" target="sJCHCwhLiSYqByzaOlav-32">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sJCHCwhLiSYqByzaOlav-31" target="sJCHCwhLiSYqByzaOlav-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-31" value="Paginación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=13;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-31" value="Paginación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=13;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="69" y="350" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-32" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;El espacio de direcciones virtuales se divide en unidades de tamaño fijo llamadas páginas. Las unidades correspondientes en la memoria física se llaman marcos de página.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-32" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;El espacio de direcciones virtuales se divide en unidades de tamaño fijo llamadas páginas. Las unidades correspondientes en la memoria física se llaman marcos de página.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="259" y="340" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-33" value="Las transferencias entre la RAM y el disco siempre son en páginas completas. &lt;br style=&quot;font-size: 14px;&quot;&gt;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-33" value="Las transferencias entre la RAM y el disco siempre son en páginas completas. &lt;br style=&quot;font-size: 14px;&quot;&gt;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="269" y="410" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-34" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-34" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="320" as="sourcePoint" />
             <mxPoint x="800" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-35" target="sJCHCwhLiSYqByzaOlav-36">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sJCHCwhLiSYqByzaOlav-35" target="sJCHCwhLiSYqByzaOlav-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-35" target="s4GA2nrKIdpl0DyFK8-1-1">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sJCHCwhLiSYqByzaOlav-35" target="s4GA2nrKIdpl0DyFK8-1-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-35" value="Tabla de página" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-35" value="Tabla de página" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="815" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-36" value="Muestra las asociaciones actuales entre direcciones físicas y virtuales.&amp;nbsp;Asocia páginas virtuales a los marcos de página.&lt;br&gt;&amp;nbsp;Dentro de la MMU." style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;rotation=0;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-36" value="Muestra las asociaciones actuales entre direcciones físicas y virtuales.&amp;nbsp;Asocia páginas virtuales a los marcos de página.&lt;br&gt;&amp;nbsp;Dentro de la MMU." style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;rotation=0;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="800" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-42" target="sJCHCwhLiSYqByzaOlav-43">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sJCHCwhLiSYqByzaOlav-42" target="sJCHCwhLiSYqByzaOlav-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-42" value="MMU" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-42" value="MMU" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="810" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJCHCwhLiSYqByzaOlav-43" target="sJCHCwhLiSYqByzaOlav-45">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sJCHCwhLiSYqByzaOlav-43" target="sJCHCwhLiSYqByzaOlav-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-43" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Unidad de administración de memoria&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-43" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Unidad de administración de memoria&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="655" y="810" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sJCHCwhLiSYqByzaOlav-45" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se encarga de la traducción y administración de las direcciones.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="sJCHCwhLiSYqByzaOlav-45" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se encarga de la traducción y administración de las direcciones.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="655" y="890" width="135" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s4GA2nrKIdpl0DyFK8-1-1" target="s4GA2nrKIdpl0DyFK8-1-5">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s4GA2nrKIdpl0DyFK8-1-1" target="s4GA2nrKIdpl0DyFK8-1-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-1" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Cada entrada contiene:&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Número de marco&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Bit presente/ausente&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Bits de protección&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Bits de modificada y referenciada&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;El último bit que permite deshabilitar el uso de la caché para la página&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-1" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Cada entrada contiene:&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Número de marco&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Bit presente/ausente&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Bits de protección&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Bits de modificada y referenciada&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;El último bit que permite deshabilitar el uso de la caché para la página&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="134" y="895" width="270" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-5" value="La tabla de páginas sólo guarda la información que el hardware necesita para traducir una dirección virtual en una dirección física." style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-5" value="La tabla de páginas sólo guarda la información que el hardware necesita para traducir una dirección virtual en una dirección física." style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="425" y="920" width="185" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-10" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-10" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="479" as="sourcePoint" />
             <mxPoint x="800" y="479" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4GA2nrKIdpl0DyFK8-1-11" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="s4GA2nrKIdpl0DyFK8-1-11" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="778" as="sourcePoint" />
             <mxPoint x="800" y="778" as="targetPoint" />
@@ -380,71 +448,24 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="pAnZYnVo_QOP7w1gya8p" name="Página-4">
-    <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="_54w1vy_I6KUnofhwru--1" value="Algoritmos de intercambio:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fillColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_54w1vy_I6KUnofhwru--2" target="_54w1vy_I6KUnofhwru--3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--2" value="Primer ajuste" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--3" value="Recorro desde el inicio y almaceno el requerimiento en el primer hueco que sea capaz de almacenarlo." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="230" y="120" width="460" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_54w1vy_I6KUnofhwru--5" target="_54w1vy_I6KUnofhwru--6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--5" value="Mejor ajuste:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="340" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--6" value="Recorro desde el inicio y almaceno el requerimiento en el hueco que mejor se ajuste (aquel que menor fragmentación deja)." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="230" y="340" width="460" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_54w1vy_I6KUnofhwru--11" target="_54w1vy_I6KUnofhwru--12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--11" value="Peor ajuste:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="270" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--12" value="Recorro todo (de principio a fin) y almaceno el requerimiento en el hueco que mayor &quot;desperdicio&quot; genera.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="230" y="270" width="460" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_54w1vy_I6KUnofhwru--14" target="_54w1vy_I6KUnofhwru--15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--14" value="Siguiente ajuste:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="195" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_54w1vy_I6KUnofhwru--15" value="No recorro desde el inicio c/ vez. Continúa recorriendo desde donde se quedó. El resto = a primer ajuste." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="230" y="180" width="460" height="70" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="3Go7hnfQIz7NoIfCy7m9" name="Página-3">
     <mxGraphModel dx="839" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4tzdqPOuqvQdjOBXl9oD-2" target="4tzdqPOuqvQdjOBXl9oD-4">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4tzdqPOuqvQdjOBXl9oD-2" target="4tzdqPOuqvQdjOBXl9oD-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-2" value="Fallo de página" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-2" value="Fallo de página" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="-1120" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4tzdqPOuqvQdjOBXl9oD-4" target="4tzdqPOuqvQdjOBXl9oD-5">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4tzdqPOuqvQdjOBXl9oD-4" target="4tzdqPOuqvQdjOBXl9oD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se produce cuando una página no posee una asociación en la tabla de página.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se produce cuando una página no posee una asociación en la tabla de página.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="234.75" y="-1120" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-5" value="El sistema operativo selecciona un marco de página que se utilice poco y escribe su contenido de vuelta al disco (si no es que ya está ahí). Después obtiene la página que se acaba de referenciar en el marco de página que se acaba de liberar, cambia la asociación y reinicia la instrucción que originó el trap. " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0;rotation=0;horizontal=1;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-5" value="El sistema operativo selecciona un marco de página que se utilice poco y escribe su contenido de vuelta al disco (si no es que ya está ahí). Después obtiene la página que se acaba de referenciar en el marco de página que se acaba de liberar, cambia la asociación y reinicia la instrucción que originó el trap. " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0;rotation=0;horizontal=1;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="-1040" width="740" height="60" as="geometry" />
         </mxCell>
       </root>
