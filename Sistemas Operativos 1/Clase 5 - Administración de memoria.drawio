@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T21:39:57.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="6dJS1UJLTziR3Y4c_07q" version="21.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-23T21:43:53.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="fnUz8QY6v7C4wGj2m9R-" version="21.3.2" type="github" pages="4">
   <diagram id="xX3T-Diw_sW6EzM1j-1P" name="Página-0">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,94 +347,94 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u8eRVmUPsow33GFepTV0-1" value="Ejemplo y explicación de paginación:&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="u8eRVmUPsow33GFepTV0-1" value="Ejemplo y explicación de paginación:&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="30" y="50" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u8eRVmUPsow33GFepTV0-2" value="En este ejemplo, tenemos una computadora que genera direcciones de 16 bits, desde 0 hasta 64 K. Éstas son las direcciones virtuales. Sin embargo, esta computadora sólo tiene 32 KB de memoria física. Así, aunque se pueden escribir programas de 64 KB, no se pueden cargar completos en memoria y ejecutarse. No obstante, una copia completa de la imagen básica de un programa, de hasta 64 KB, debe estar presente en el disco para que las partes se puedan traer a la memoria según sea necesario. El espacio de direcciones virtuales se divide en unidades de tamaño fijo llamadas &lt;span class=&quot;fontstyle2&quot; style=&quot;font-size: 14px;&quot;&gt;páginas&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;. Las unidades correspondientes en la memoria física se llaman &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot; style=&quot;font-size: 14px;&quot;&gt;marcos de página&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;. Las páginas y los marcos de página por lo general son del mismo tamaño. En este ejemplo son de 4 KB, pero en sistemas reales se han utilizado tamaños de página desde 512 bytes hasta 64 KB. Con 64 KB de espacio de direcciones virtuales y 32 KB de memoria física obtenemos 16 páginas virtuales y 8 marcos de página. Las transferencias entre la RAM y el disco siempre son en páginas completas.&lt;/span&gt; " style="text;html=1;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="u8eRVmUPsow33GFepTV0-2" value="En este ejemplo, tenemos una computadora que genera direcciones de 16 bits, desde 0 hasta 64 K. Éstas son las direcciones virtuales. Sin embargo, esta computadora sólo tiene 32 KB de memoria física. Así, aunque se pueden escribir programas de 64 KB, no se pueden cargar completos en memoria y ejecutarse. No obstante, una copia completa de la imagen básica de un programa, de hasta 64 KB, debe estar presente en el disco para que las partes se puedan traer a la memoria según sea necesario. El espacio de direcciones virtuales se divide en unidades de tamaño fijo llamadas &lt;span class=&quot;fontstyle2&quot; style=&quot;font-size: 14px;&quot;&gt;páginas&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;. Las unidades correspondientes en la memoria física se llaman &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot; style=&quot;font-size: 14px;&quot;&gt;marcos de página&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;. Las páginas y los marcos de página por lo general son del mismo tamaño. En este ejemplo son de 4 KB, pero en sistemas reales se han utilizado tamaños de página desde 512 bytes hasta 64 KB. Con 64 KB de espacio de direcciones virtuales y 32 KB de memoria física obtenemos 16 páginas virtuales y 8 marcos de página. Las transferencias entre la RAM y el disco siempre son en páginas completas.&lt;/span&gt; " style="text;html=1;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="120" width="760" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="u8eRVmUPsow33GFepTV0-3" value="El rango marcado de 0K a 4 K significa que las direcciones virtuales o físicas en esa página son de 0 a 4095. El rango de 4 K a 8 K se refiere a las&amp;nbsp;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;direcciones de 4096 a 8191 y así en lo sucesivo. Cada página contiene exactamente 4096 direcciones que empiezan en un múltiplo de 4096 y terminan uno antes del múltiplo de 4096.&lt;br style=&quot;font-size: 14px;&quot;&gt;Por ejemplo, cuando el programa trata de acceder a la dirección 0 usando la instrucción&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle4&quot; style=&quot;font-size: 14px;&quot;&gt;MOV REG,0&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;la dirección virtual 0 se envía a la MMU. La MMU ve que esta dirección virtual está en la página 0 (0 a 4095), que de acuerdo con su asociación es el marco de página 2 (8192 a 12287). Así, transforma la dirección en 8192 y envía la dirección 8192 al bus. &lt;u&gt;La memoria no sabe nada acerca de la MMU&lt;/u&gt; y sólo ve una petición para leer o escribir en la dirección 8192, la cual cumple. De esta manera, la MMU ha asociado efectivamente todas las direcciones virtuales entre 0 y 4095 sobre las direcciones físicas de 8192 a 12287.&lt;/span&gt; " style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="u8eRVmUPsow33GFepTV0-3" value="El rango marcado de 0K a 4 K significa que las direcciones virtuales o físicas en esa página son de 0 a 4095. El rango de 4 K a 8 K se refiere a las&amp;nbsp;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;direcciones de 4096 a 8191 y así en lo sucesivo. Cada página contiene exactamente 4096 direcciones que empiezan en un múltiplo de 4096 y terminan uno antes del múltiplo de 4096.&lt;br style=&quot;font-size: 14px;&quot;&gt;Por ejemplo, cuando el programa trata de acceder a la dirección 0 usando la instrucción&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle4&quot; style=&quot;font-size: 14px;&quot;&gt;MOV REG,0&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;font-size: 14px;&quot;&gt;la dirección virtual 0 se envía a la MMU. La MMU ve que esta dirección virtual está en la página 0 (0 a 4095), que de acuerdo con su asociación es el marco de página 2 (8192 a 12287). Así, transforma la dirección en 8192 y envía la dirección 8192 al bus. &lt;u&gt;La memoria no sabe nada acerca de la MMU&lt;/u&gt; y sólo ve una petición para leer o escribir en la dirección 8192, la cual cumple. De esta manera, la MMU ha asociado efectivamente todas las direcciones virtuales entre 0 y 4095 sobre las direcciones físicas de 8192 a 12287.&lt;/span&gt; " style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="30" y="350" width="700" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-9" value="" style="group;strokeColor=default;dashed=1;fillColor=default;" vertex="1" connectable="0" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-9" value="" style="group;strokeColor=default;dashed=1;fillColor=default;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="190" y="700" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-2" value="dir_log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-2" value="dir_log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" vertex="1">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-3" value="tam_pag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-3" value="tam_pag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" vertex="1">
           <mxGeometry x="68" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-4" value="d" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-4" value="d" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" vertex="1">
           <mxGeometry x="4" y="26" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-5" value="p" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-5" value="p" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" vertex="1">
           <mxGeometry x="69" y="26" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-6" value="" style="endArrow=none;html=1;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="25" as="sourcePoint" />
             <mxPoint x="60" y="5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-7" value="" style="endArrow=none;html=1;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="26" as="sourcePoint" />
             <mxPoint x="130" y="26" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="g4HCm4ZqrK3GFBOuIf6F-9">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-8" value="" style="endArrow=none;html=1;rounded=0;" parent="g4HCm4ZqrK3GFBOuIf6F-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="35" y="60" as="sourcePoint" />
             <mxPoint x="45" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-10" value="Para la práctica:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-10" value="Para la práctica:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="50" y="630" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-11" value="Siempre en bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-11" value="Siempre en bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="195" y="770" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-13" value="Desplazamiento siempre menor a tam_pag o tam_marco. Si d es mayor, la dirección es incorrecta." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-13" value="Desplazamiento siempre menor a tam_pag o tam_marco. Si d es mayor, la dirección es incorrecta." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 8;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="450" y="755" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-14" value="d &amp;lt; tam_pag&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-14" value="d &amp;lt; tam_pag&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="495" y="700" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-15" value="Para que exista correspondencia entre una dirección lógica y una física, sus desplazamientos tienen que ser iguales." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=1 2;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-15" value="Para que exista correspondencia entre una dirección lógica y una física, sus desplazamientos tienen que ser iguales." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=1 2;fontStyle=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="160" y="860" width="530" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-16" value="Dirección física = (tam_pag * número de marco) + desplazamiento" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-16" value="Dirección física = (tam_pag * número de marco) + desplazamiento" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="195" y="930" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-17" value="Dirección lógica:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-17" value="Dirección lógica:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="60" y="1020" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-19" value="p&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-19" value="p&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="1020" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g4HCm4ZqrK3GFBOuIf6F-19" target="g4HCm4ZqrK3GFBOuIf6F-19">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="g4HCm4ZqrK3GFBOuIf6F-19" target="g4HCm4ZqrK3GFBOuIf6F-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="910" as="sourcePoint" />
             <mxPoint x="400" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-21" value="m&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-21" value="m&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="1020" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-22" value="Dirección física:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-22" value="Dirección física:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="440" y="1020" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g4HCm4ZqrK3GFBOuIf6F-21" target="g4HCm4ZqrK3GFBOuIf6F-21">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="g4HCm4ZqrK3GFBOuIf6F-21" target="g4HCm4ZqrK3GFBOuIf6F-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="910" as="sourcePoint" />
             <mxPoint x="480" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aw-82xF7XDFrR6vuIXrK-1" value="p = página&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;m=marco&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;d=desplazamiento" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aw-82xF7XDFrR6vuIXrK-1" value="p = página&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;m=marco&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;d=desplazamiento" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="630" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aw-82xF7XDFrR6vuIXrK-2" value="Utilizamos tam_pag = tam_marco" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aw-82xF7XDFrR6vuIXrK-2" value="Utilizamos tam_pag = tam_marco" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="630" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
