@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T21:43:53.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="fnUz8QY6v7C4wGj2m9R-" version="21.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-26T19:41:44.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="sRhNxjKiGu25-IYcCKzq" version="21.3.3" type="github" pages="4">
   <diagram id="xX3T-Diw_sW6EzM1j-1P" name="Página-0">
     <mxGraphModel dx="839" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,7 +410,7 @@
         <mxCell id="g4HCm4ZqrK3GFBOuIf6F-17" value="Dirección lógica:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="60" y="1020" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-19" value="p&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-19" value="p&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="1020" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4HCm4ZqrK3GFBOuIf6F-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="g4HCm4ZqrK3GFBOuIf6F-19" target="g4HCm4ZqrK3GFBOuIf6F-19" edge="1">
@@ -419,7 +419,7 @@
             <mxPoint x="400" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-21" value="m&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="g4HCm4ZqrK3GFBOuIf6F-21" value="m&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="1020" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4HCm4ZqrK3GFBOuIf6F-22" value="Dirección física:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
@@ -454,10 +454,10 @@
         <mxCell id="4tzdqPOuqvQdjOBXl9oD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4tzdqPOuqvQdjOBXl9oD-4" target="4tzdqPOuqvQdjOBXl9oD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se produce cuando una página no posee una asociación en la tabla de página.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Se produce cuando una página no posee una asociación en la tabla de página.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="234.75" y="-1120" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4tzdqPOuqvQdjOBXl9oD-5" value="El sistema operativo selecciona un marco de página que se utilice poco y escribe su contenido de vuelta al disco (si no es que ya está ahí). Después obtiene la página que se acaba de referenciar en el marco de página que se acaba de liberar, cambia la asociación y reinicia la instrucción que originó el trap. " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0;rotation=0;horizontal=1;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="4tzdqPOuqvQdjOBXl9oD-5" value="El sistema operativo selecciona un marco de página que se utilice poco y escribe su contenido de vuelta al disco (si no es que ya está ahí). Después obtiene la página que se acaba de referenciar en el marco de página que se acaba de liberar, cambia la asociación y reinicia la instrucción que originó el trap. " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0;rotation=0;horizontal=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="-1040" width="740" height="60" as="geometry" />
         </mxCell>
       </root>
